@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MaxSnaps</title>
+  </head>
+
+  <body>
+    <header class="navbar-fixed">
+        <nav class="z-depth-0">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo">
+                        <img src="assets/MAXSNAPS LOGO.png" alt="MaxSnaps Logo">
+                    </a>
+                    
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger burger-menu"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#" class="black-text">Home</a></li>
+                        <li><a href="#services" class="black-text">Services</a></li>
+                        <li><a href="#gallery" class="black-text">Gallery</a></li>
+                        <li><a href="https://www.facebook.com/maxsnap08" class="black-text"><i class="material-icons">facebook</i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container showcase">
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <h2 class="name"><span class="maxie">Maxie</span> Agustin</h2>
+                <h5 class="desc">I’m a Videographer and Photographer.</h5>
+                <a href="#gallery" class="waves-effect waves-light btn-large showcase-cta">View Gallery</a>
+            </div>
+            <div class="col s12 m6">
+                <img src="assets/Hero Image.png" class="responsive-img" alt="Hero Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidenav on mobile -->
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="https://www.facebook.com/maxsnap08">Facebook Page</a></li>
+    </ul>
+
+    <!-- Services Section -->
+
+    <div class="container services-container" id="services">
+        <div class="row center-align">
+            <div class="col s12">
+                <h4 class="services-txt">Services</h4>
+                <p class="services-desc">MaxSnaps can give you high <br> quality services that you deserve.</p>
+            </div>
+            <div class="col s12">
+                <div class="video-container demo-reel">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DBzpPV2BEQk?rel=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="services-offered">Services offered are Wedding, Pre-nuptial, Debut, Kids party and Corporate events.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Section -->
+
+    <div class="container gallery-container" id="gallery">
+        <div class="row center-align">
+            <div class="col s12">
+                <h4 class="gallery-txt">Gallery</h4>
+            </div>
+        </div>
+        <div class="slider slider-img">
+            <ul class="slides">
+              <li>
+                <img src="assets/f.jpg">
+              </li>
+              <li>
+                <img src="assets/a.jpg">
+              </li>
+              <li>
+                <img src="assets/b.jpg">
+              </li>
+              <li>
+                <img src="assets/e.jpg">
+              </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="center-align snap-container">
+        <div class="row s6">
+            <h3 class="snap-txt">Let’s create memories in a snap.</h3>
+            <p class="snap-desc">You’re one step closer to feel the special moments behind the picture.</p>
+            <a href="mailto:agustinmaxie72@gmail.com" class="waves-effect waves-light btn-large"><i class="material-icons left">email</i>Email Me</a>
+            <p class="or">or go to my</p>
+            <a href="https://www.facebook.com/maxsnap08" class="waves-effect waves-light btn-flat fb white-text"><i class="material-icons left">facebook</i>Facebook Page</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 l6">
+              <h5 class="white-text inquire">Inquire Now</h5>
+              <p class="grey-text text-lighten-4 inquire-txt"><i class="material-icons call-icon">call</i>09294032137</p>
+              <p class="grey-text text-lighten-4 inquire-txt"><i class="material-icons email-icon">email</i>agustinmaxie72@gmail.com</p>
+              <p class="grey-text text-lighten-4 inquire-txt"><i class="material-icons fb-icon">facebook</i>@maxsnap08</p>
+            </div>
+            <div class="col s12 m6 l4">
+              <img src="assets/MAXSNAPSwhite.png" class="responsive-img maxsnap-logo-footer" alt="MaxSnaps Logo">
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright center-align">
+          <div class="container">
+          © 2021 MaxSnaps Photography & Videography
+          </div>
+        </div>
+      </footer>
+
+    <!-- JavaScript/jQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('.sidenav').sidenav({edge: 'right'});
+        $('.carousel').carousel();
+        $('.slider').slider({
+            height: 550,
+            interval: 2500,
+            indicators: true
+        });
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,230 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-wrapper {
+    background: #F5F5F5;
+}
+
+.black-text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.burger-menu {
+    color: #000;
+}
+
+.name {
+    font-weight: bold;
+    margin-left: -15px;
+}
+
+.maxie {
+    color: #0EAA95;
+}
+
+.desc {
+    margin-left: -12px;
+    line-height: 1.5;
+}
+
+.showcase {
+    margin-top: 65px;
+    height: 80vh;
+}
+
+.showcase-cta {
+    margin-left: -10px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.logo-tablet {
+    margin-right: 70px;
+}
+
+.services-container {
+    margin-top: -20px;
+}
+
+.services-txt {
+    font-weight: 700;
+}
+
+.services-desc {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.services-offered {
+    font-size: 1.1rem;
+}
+
+.demo-reel {
+    margin-top: 40px;
+}
+
+.gallery-txt {
+    font-weight: 700;
+}
+
+.gallery-container {
+    height: 90vh;
+}
+
+.snap-container {
+    margin-top: 200px;
+    background: #0EAA95;
+    padding: 50px;
+    color: #fff;
+}
+
+.btn-large {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.btn-large:hover {
+    background: #F5F5F5;
+    color: #0EAA95;
+}
+
+.fb {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.or {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.snap-txt {
+    font-weight: 700;
+}
+
+.snap-desc {
+    font-size: 1.6rem;
+}
+
+.page-footer {
+    background: #141414;
+}
+
+.inquire {
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.call-icon, .email-icon, .fb-icon {
+    color: #0EAA95;
+    padding-right: 15px;
+}
+
+.maxsnap-logo-footer {
+    padding-top: 80px;
+    width: 250px;
+    margin-left: 150px;
+}
+
+@media (max-width: 890px) {
+    .name {
+        font-size: 3.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 2.7rem;
+    }
+    .desc {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .showcase {
+        text-align: center;
+    }
+
+    .showcase-cta {
+        margin-bottom: 60px;
+    }
+
+    .name {
+        font-size: 3.2rem;
+        margin-top: -10px;
+    }
+    .desc {
+        font-size: 1.6rem;
+    }
+
+    .slides {
+        height: 300px !important;
+    }
+    .slider {
+        height: 350px !important;
+    }
+    .page-footer {
+        text-align: center;
+    }
+    .maxsnap-logo-footer {
+        width: 100px;
+    }
+}
+
+@media (max-width: 598px) {
+    .responsive-img {
+        width: 400px;
+        margin-bottom: 50px;
+    }
+    .snap-container {
+        margin-top: -140px;
+        padding: 40px;
+    }
+    .snap-txt {
+        font-size: 2.1rem;
+    }
+    .snap-desc {
+        font-size: 1.4rem;
+    }
+    .page-footer {
+        padding-top: 40px;
+    }
+    .maxsnap-logo-footer {
+        width: 220px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 512px) {
+    .responsive-img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 510px) {
+    .maxsnap-logo-footer {
+        width: 210px;
+    }
+}
+
+@media (max-width: 280px) {
+    .maxsnap-logo-footer {
+        width: 180px;
+        margin-left: 5px;
+    }
+    .inquire-txt {
+        font-size: 0.9rem;
+    }
+    .call-icon, .email-icon, .fb-icon {
+        
+    }
+}
