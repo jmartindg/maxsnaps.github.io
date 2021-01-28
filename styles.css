@@ -16,6 +16,29 @@ body {
     text-transform: uppercase;
 }
 
+.black-text:hover {
+    color: #0EAA95 !important;
+    background: #F5F5F5 !important;
+    transition: .3s ease;
+}
+
+.sidenav {
+    background: #F5F5F5;
+    padding-top: 20px;
+}
+
+.sidenav-link {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    padding-bottom: 55px !important;
+}
+
+.sidenav-link:hover {
+    color: #0EAA95 !important;
+    background: #F5F5F5 !important;
+    transition: .3s ease;
+}
+
 .burger-menu {
     color: #000;
 }
@@ -134,6 +157,19 @@ body {
     margin-left: 150px;
 }
 
+.indicators .indicator-item.active {
+    background: #0EAA95 !important;
+}
+
+@media (max-width: 1123px) {
+    .name {
+        font-size: 3rem;
+    }
+    .showcase {
+        height: 90vh;
+    }
+}
+
 @media (max-width: 890px) {
     .name {
         font-size: 3.1rem;
@@ -185,6 +221,9 @@ body {
         width: 400px;
         margin-bottom: 50px;
     }
+    .name {
+        font-size: 2.9rem;
+    }
     .snap-container {
         margin-top: -140px;
         padding: 40px;
@@ -208,11 +247,38 @@ body {
     .responsive-img {
         width: 350px;
     }
+    .desc {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 510px) {
     .maxsnap-logo-footer {
         width: 210px;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 2.8rem;
+    }
+    .responsive-img {
+        width: 240px;
+    }
+}
+
+@media (max-width: 335px) {
+    .name {
+        font-size: 2rem;
+    }
+    .desc {
+        font-size: 1.3rem;
+    }
+    .services-container {
+        margin-top: -100px;
+    }
+    .services-desc {
+        font-size: 1.3rem;
     }
 }
 
@@ -223,8 +289,5 @@ body {
     }
     .inquire-txt {
         font-size: 0.9rem;
-    }
-    .call-icon, .email-icon, .fb-icon {
-        
     }
 }
